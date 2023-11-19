@@ -21,7 +21,8 @@
 				"MS-vsliveshare.vsliveshare",
 				"esbenp.prettier-vscode",
 				"eamodio.gitlens",
-				"jock.svg"
+				"jock.svg",
+				"bierner.markdown-emoji"
 			]
 		}
 	}
