@@ -1,0 +1,28 @@
+{
+	"name": "NextJS Starter",
+	"dockerComposeFile": "docker-compose.yaml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"remoteEnv": {
+		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+	},
+	"hostRequirements": {
+		"cpus": 2,
+		"memory": "4gb",
+		"storage": "32gb"
+	},
+	"forwardPorts": [
+		8080
+	],
+	"customizations": {
+		"settings": {},
+		"vscode": {
+			"extensions": [
+				"MS-vsliveshare.vsliveshare",
+				"esbenp.prettier-vscode",
+				"eamodio.gitlens",
+				"jock.svg"
+			]
+		}
+	}
+}
